@@ -109,4 +109,4 @@ GET /api/aircraft-info?icao24=a12345
 
 ## Licencja
 
-MIT
+CC
