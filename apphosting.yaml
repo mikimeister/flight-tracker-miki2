@@ -1,0 +1,54 @@
+# Settings for Backend (on Cloud Run).
+# See https://firebase.google.com/docs/app-hosting/configure#cloud-run
+runConfig:
+  minInstances: 0
+  # maxInstances: 100
+  # concurrency: 80
+  # cpu: 1
+  # memoryMiB: 512
+
+# Environment variables and secrets.
+env:
+  # Supabase configuration
+  - variable: NEXT_PUBLIC_SUPABASE_URL
+    value: https://pyprvfpadvwsyewauwyf.supabase.co
+    availability:
+      - BUILD
+      - RUNTIME
+  
+  - variable: NEXT_PUBLIC_SUPABASE_ANON_KEY
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB5cHJ2ZnBhZHZ3c3lld2F1d3lmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA2MTA5OTksImV4cCI6MjA2NjE4Njk5OX0.x1fUq43KmsFeevcIwHdkgY3IOpVeSBg9c__WHryuzdA
+    availability:
+      - BUILD
+      - RUNTIME
+  
+  # OpenSky API configuration
+  - variable: OPENSKY_CLIENT_ID
+    value: mikimeister-api-client
+    availability:
+      - BUILD
+      - RUNTIME
+  
+  - variable: OPENSKY_CLIENT_SECRET
+    value: SjndC9JIA5WIqdB7p4YK31CZxVmxHULu
+    availability:
+      - BUILD
+      - RUNTIME
+  
+  # Additional API keys
+  - variable: AVIATIONSTACK_API_KEY
+    value: 29f76a59868c558663821431e5a52a36
+    availability:
+      - BUILD
+      - RUNTIME
+  
+  - variable: AERODATABOX_API_KEY
+    value: b1a648-522f67-f49514-46c593-39a585
+    availability:
+      - BUILD
+      - RUNTIME
+
+  # Grant access to secrets in Cloud Secret Manager.
+  # See https://firebase.google.com/docs/app-hosting/configure#secret-parameters
+  # - variable: MY_SECRET
+  #   secret: mySecretRef
