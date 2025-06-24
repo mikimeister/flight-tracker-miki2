@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-export const dynamic = "force-static";
-
 // The state vector from OpenSky API has a specific structure.
 // We are interested in these indices:
 // 0: icao24
