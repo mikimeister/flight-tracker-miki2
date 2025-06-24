@@ -1,7 +1,3 @@
-# SkyTrack - Aplikacja do Śledzenia Lotów w Czasie Rzeczywistym
-
-SkyTrack to nowoczesna aplikacja webowa do śledzenia lotów w czasie rzeczywistym, zbudowana przy użyciu Next.js i React. Aplikacja umożliwia monitorowanie ruchu lotniczego na interaktywnej mapie z dodatkowymi informacjami o samolotach, liniach lotniczych i trasach.
-
 ## Funkcje
 
 - 🛩️ Śledzenie samolotów w czasie rzeczywistym
@@ -35,20 +31,16 @@ Aplikacja integruje dane z następujących źródeł:
 - **Dodatkowe informacje** - rok produkcji, typ silnika
 - **Fallback dla modelu** - jeśli OpenSky nie ma danych
 
-### 3. FlightAware API (opcjonalne)
-- **Dodatkowe informacje** - wymaga klucza API
-- **Historia lotów** - informacje o trasach
-
 ## Instalacja
 
 1. Sklonuj repozytorium:
 ```bash
-git clone https://github.com/twoje-konto/skytrack.git
+git clone https://github.com/twoje-konto/flight-miki.git
 ```
 
 2. Zainstaluj zależności:
 ```bash
-cd skytrack
+cd flight-miki
 npm install
 ```
 
