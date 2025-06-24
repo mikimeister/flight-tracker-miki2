@@ -372,3 +372,193 @@
 [debug] [2025-06-24T22:43:13.493Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w/gitRepositoryLinks/mikimeister-flight-tracker-miki2:fetchGitRefs refType=BRANCH&pageSize=1000&pageToken=
 [debug] [2025-06-24T22:43:14.138Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w/gitRepositoryLinks/mikimeister-flight-tracker-miki2:fetchGitRefs 200
 [debug] [2025-06-24T22:43:14.139Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w/gitRepositoryLinks/mikimeister-flight-tracker-miki2:fetchGitRefs {}
+[debug] [2025-06-24T22:50:48.006Z] ----------------------------------------------------------------------
+[debug] [2025-06-24T22:50:48.007Z] Command:       /Users/mikolajmunchberg/.nvm/versions/node/v18.20.6/bin/node /Users/mikolajmunchberg/.nvm/versions/node/v18.20.6/bin/firebase apphosting:backends:create
+[debug] [2025-06-24T22:50:48.008Z] CLI Version:   13.35.1
+[debug] [2025-06-24T22:50:48.008Z] Platform:      darwin
+[debug] [2025-06-24T22:50:48.008Z] Node Version:  v18.20.6
+[debug] [2025-06-24T22:50:48.009Z] Time:          Wed Jun 25 2025 00:50:48 GMT+0200 (Central European Summer Time)
+[debug] [2025-06-24T22:50:48.009Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-24T22:50:48.120Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:48.120Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:48.121Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-06-24T22:50:48.121Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/flight-tracker-miki2
+[debug] [2025-06-24T22:50:49.299Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-06-24T22:50:49.299Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-06-24T22:50:49.300Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.300Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.300Z] >>> [apiv2][query] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus [none]
+[debug] [2025-06-24T22:50:49.751Z] <<< [apiv2][status] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus 200
+[debug] [2025-06-24T22:50:49.751Z] <<< [apiv2][body] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus {"overallStatus":"ACCEPTED","uTosStatus":{"tos":{"id":"firebase","tosId":"FIREBASE_UNIVERSAL"},"status":"ACCEPTED","acceptedVersion":7},"childTosStatus":[{"tos":{"id":"cloud","tosId":"CLOUD_PLATFORM"},"status":"ACCEPTED","acceptedVersion":38},{"tos":{"id":"firebase_b2b","tosId":"FIREBASE_B2B"},"status":"ACCEPTED","acceptedVersion":1},{"tos":{"id":"universal","tosId":"GOOGLE_APIS"},"status":"ACCEPTED","acceptedVersion":6}],"termsUrl":"https://firebase.google.com/terms","perServiceStatus":[{"tosId":"APP_CHECK","serviceStatus":{"tos":{"id":"app_check","tosId":"APP_CHECK"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"APP_HOSTING_TOS","serviceStatus":{"tos":{"id":"app_hosting","tosId":"APP_HOSTING_TOS"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"FIREBASE_DATA_CONNECT","serviceStatus":{"tos":{"id":"data_connect","tosId":"FIREBASE_DATA_CONNECT"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"CORE_APPS","serviceStatus":{"tos":{"id":"core_apps","tosId":"CORE_APPS"},"status":"ACCEPTED","acceptedVersion":1}},{"tosId":"VERTEX_AI_IN_FIREBASE","serviceStatus":{"tos":{"id":"vertex_ai_in_firebase","tosId":"VERTEX_AI_IN_FIREBASE"},"status":"ACCEPTED","acceptedVersion":2}},{"tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION","serviceStatus":{"tos":{"id":"firebase_crashlytics_app_distribution","tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION"},"status":"ACCEPTED","acceptedVersion":4}},{"tosId":"GENERATIVE_LANGUAGE","serviceStatus":{"tos":{"id":"generative-language-api","tosId":"GENERATIVE_LANGUAGE"},"status":"NEVER_ACCEPTED","acceptedVersion":3}}]}
+[debug] [2025-06-24T22:50:49.752Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.752Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.752Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.752Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.752Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.752Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.753Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.753Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.753Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.753Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.753Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.753Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:49.753Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/developerconnect.googleapis.com [none]
+[debug] [2025-06-24T22:50:49.753Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/developerconnect.googleapis.com x-goog-quota-user=projects/flight-tracker-miki2
+[debug] [2025-06-24T22:50:49.754Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/cloudbuild.googleapis.com [none]
+[debug] [2025-06-24T22:50:49.754Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/cloudbuild.googleapis.com x-goog-quota-user=projects/flight-tracker-miki2
+[debug] [2025-06-24T22:50:49.755Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/secretmanager.googleapis.com [none]
+[debug] [2025-06-24T22:50:49.755Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/secretmanager.googleapis.com x-goog-quota-user=projects/flight-tracker-miki2
+[debug] [2025-06-24T22:50:49.757Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/run.googleapis.com [none]
+[debug] [2025-06-24T22:50:49.757Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/run.googleapis.com x-goog-quota-user=projects/flight-tracker-miki2
+[debug] [2025-06-24T22:50:49.758Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/artifactregistry.googleapis.com [none]
+[debug] [2025-06-24T22:50:49.758Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/artifactregistry.googleapis.com x-goog-quota-user=projects/flight-tracker-miki2
+[debug] [2025-06-24T22:50:49.759Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/iam.googleapis.com [none]
+[debug] [2025-06-24T22:50:49.759Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/iam.googleapis.com x-goog-quota-user=projects/flight-tracker-miki2
+[debug] [2025-06-24T22:50:50.642Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/secretmanager.googleapis.com 200
+[debug] [2025-06-24T22:50:50.643Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/secretmanager.googleapis.com [omitted]
+[debug] [2025-06-24T22:50:50.653Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/run.googleapis.com 200
+[debug] [2025-06-24T22:50:50.653Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/run.googleapis.com [omitted]
+[debug] [2025-06-24T22:50:50.658Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/developerconnect.googleapis.com 200
+[debug] [2025-06-24T22:50:50.659Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/developerconnect.googleapis.com [omitted]
+[debug] [2025-06-24T22:50:50.677Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/artifactregistry.googleapis.com 200
+[debug] [2025-06-24T22:50:50.677Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/artifactregistry.googleapis.com [omitted]
+[debug] [2025-06-24T22:50:50.689Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/cloudbuild.googleapis.com 200
+[debug] [2025-06-24T22:50:50.689Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/cloudbuild.googleapis.com [omitted]
+[debug] [2025-06-24T22:50:50.695Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/iam.googleapis.com 200
+[debug] [2025-06-24T22:50:50.695Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/flight-tracker-miki2/services/iam.googleapis.com [omitted]
+[debug] [2025-06-24T22:50:50.695Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:50.695Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:50.695Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/flight-tracker-miki2/serviceAccounts/firebase-app-hosting-compute@flight-tracker-miki2.iam.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-06-24T22:50:50.695Z] >>> [apiv2][(partial)header] POST https://iam.googleapis.com/v1/projects/flight-tracker-miki2/serviceAccounts/firebase-app-hosting-compute@flight-tracker-miki2.iam.gserviceaccount.com:testIamPermissions x-goog-quota-user=projects/flight-tracker-miki2
+[debug] [2025-06-24T22:50:50.695Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/flight-tracker-miki2/serviceAccounts/firebase-app-hosting-compute@flight-tracker-miki2.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-06-24T22:50:51.545Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/flight-tracker-miki2/serviceAccounts/firebase-app-hosting-compute@flight-tracker-miki2.iam.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-06-24T22:50:51.545Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/flight-tracker-miki2/serviceAccounts/firebase-app-hosting-compute@flight-tracker-miki2.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-06-24T22:50:51.546Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:51.546Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:51.546Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations 
+[debug] [2025-06-24T22:50:52.568Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations 200
+[debug] [2025-06-24T22:50:52.568Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations {"locations":[{"name":"projects/flight-tracker-miki2/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/flight-tracker-miki2/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/flight-tracker-miki2/locations/us-central1","locationId":"us-central1","displayName":"Iowa"}]}
+[debug] [2025-06-24T22:50:52.568Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:52.568Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:52.568Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations 
+[debug] [2025-06-24T22:50:53.492Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations 200
+[debug] [2025-06-24T22:50:53.492Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations {"locations":[{"name":"projects/flight-tracker-miki2/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/flight-tracker-miki2/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/flight-tracker-miki2/locations/us-central1","locationId":"us-central1","displayName":"Iowa"}]}
+[info] ✔  Location set to europe-west4.
+ 
+[info] i  === Import a GitHub repository 
+[debug] [2025-06-24T22:50:58.001Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:58.001Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:58.001Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/firebase-app-hosting-github-oauth [none]
+[debug] [2025-06-24T22:50:58.263Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/firebase-app-hosting-github-oauth 200
+[debug] [2025-06-24T22:50:58.263Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/firebase-app-hosting-github-oauth {"name":"projects/flight-tracker-miki2/locations/europe-west4/connections/firebase-app-hosting-github-oauth","createTime":"2025-06-24T22:40:05.487264557Z","updateTime":"2025-06-24T22:40:38.424711635Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/flight-tracker-miki2/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-5c6b2b/versions/latest","username":"mikimeister"},"appInstallationId":"60139154","installationUri":"https://github.com/settings/installations/60139154"},"installationState":{"stage":"COMPLETE"}}
+[info] ✔  Connected with GitHub successfully
+ 
+[debug] [2025-06-24T22:50:58.264Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:58.264Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:50:58.264Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations [none]
+[debug] [2025-06-24T22:50:58.817Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations 200
+[debug] [2025-06-24T22:50:58.817Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations {"installations":[{"id":"60139154","name":"mikimeister","type":"user"}]}
+[debug] [2025-06-24T22:51:00.579Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:00.579Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:00.580Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections pageSize=1000&pageToken=
+[debug] [2025-06-24T22:51:00.743Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections 200
+[debug] [2025-06-24T22:51:00.743Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections {"connections":[{"name":"projects/flight-tracker-miki2/locations/europe-west4/connections/firebase-app-hosting-github-oauth","createTime":"2025-06-24T22:40:05.487264557Z","updateTime":"2025-06-24T22:40:38.424711635Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/flight-tracker-miki2/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-5c6b2b/versions/latest","username":"mikimeister"},"appInstallationId":"60139154","installationUri":"https://github.com/settings/installations/60139154"},"installationState":{"stage":"COMPLETE"}},{"name":"projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w","createTime":"2025-06-24T22:40:54.522291936Z","updateTime":"2025-06-24T22:40:55.362864401Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/flight-tracker-miki2/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-5c6b2b/versions/latest","username":"mikimeister"},"appInstallationId":"60139154","installationUri":"https://github.com/settings/installations/60139154"},"installationState":{"stage":"COMPLETE"}}]}
+[info] i  Reusing matching connection apphosting-github-conn-xpko0w 
+[debug] [2025-06-24T22:51:00.743Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:00.743Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:00.744Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w:fetchLinkableGitRepositories pageSize=1000&pageToken=
+[debug] [2025-06-24T22:51:01.325Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w:fetchLinkableGitRepositories 200
+[debug] [2025-06-24T22:51:01.326Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w:fetchLinkableGitRepositories {"linkableGitRepositories":[{"cloneUri":"https://github.com/mikimeister/flight-tracker-miki2.git"},{"cloneUri":"https://github.com/mikimeister/tankowanie-app.git"}]}
+[debug] [2025-06-24T22:51:02.742Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:02.742Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:02.742Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w [none]
+[debug] [2025-06-24T22:51:02.901Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w 200
+[debug] [2025-06-24T22:51:02.901Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w {"name":"projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w","createTime":"2025-06-24T22:40:54.522291936Z","updateTime":"2025-06-24T22:40:55.362864401Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/flight-tracker-miki2/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-5c6b2b/versions/latest","username":"mikimeister"},"appInstallationId":"60139154","installationUri":"https://github.com/settings/installations/60139154"},"installationState":{"stage":"COMPLETE"}}
+[debug] [2025-06-24T22:51:02.902Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:02.902Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:02.902Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w/gitRepositoryLinks/mikimeister-flight-tracker-miki2 [none]
+[debug] [2025-06-24T22:51:03.078Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w/gitRepositoryLinks/mikimeister-flight-tracker-miki2 200
+[debug] [2025-06-24T22:51:03.078Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w/gitRepositoryLinks/mikimeister-flight-tracker-miki2 {"name":"projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w/gitRepositoryLinks/mikimeister-flight-tracker-miki2","cloneUri":"https://github.com/mikimeister/flight-tracker-miki2.git","createTime":"2025-06-24T22:42:03.897195214Z","updateTime":"2025-06-24T22:42:04.534418056Z"}
+[debug] [2025-06-24T22:51:04.706Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:04.706Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:04.706Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w/gitRepositoryLinks/mikimeister-flight-tracker-miki2:fetchGitRefs refType=BRANCH&pageSize=1000&pageToken=
+[debug] [2025-06-24T22:51:05.448Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w/gitRepositoryLinks/mikimeister-flight-tracker-miki2:fetchGitRefs 200
+[debug] [2025-06-24T22:51:05.448Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w/gitRepositoryLinks/mikimeister-flight-tracker-miki2:fetchGitRefs {"refNames":["main"]}
+[warn] ⚠  The branch "main" does not exist on "mikimeister/flight-tracker-miki2". Please enter a valid branch for this repo. 
+[info] ✔  Repo linked successfully!
+ 
+[info] i  === Set up your backend 
+[debug] [2025-06-24T22:51:18.807Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:18.807Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:18.807Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations/europe-west4/backends/flight-tracker-miki [none]
+[debug] [2025-06-24T22:51:18.985Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations/europe-west4/backends/flight-tracker-miki 404
+[debug] [2025-06-24T22:51:18.985Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations/europe-west4/backends/flight-tracker-miki {"error":{"code":404,"message":"Resource 'projects/flight-tracker-miki2/locations/europe-west4/backends/flight-tracker-miki' was not found","status":"NOT_FOUND","details":[{"@type":"type.googleapis.com/google.rpc.ResourceInfo","resourceName":"projects/flight-tracker-miki2/locations/europe-west4/backends/flight-tracker-miki"}]}}
+[info] ✔  Name set to flight-tracker-miki
+ 
+[debug] [2025-06-24T22:51:18.987Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:18.987Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:18.988Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/flight-tracker-miki2/webApps pageSize=100
+[debug] [2025-06-24T22:51:19.393Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/flight-tracker-miki2/webApps 200
+[debug] [2025-06-24T22:51:19.393Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/flight-tracker-miki2/webApps {}
+[debug] [2025-06-24T22:51:19.393Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:19.393Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:19.393Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/flight-tracker-miki2/webApps pageSize=100
+[debug] [2025-06-24T22:51:19.810Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/flight-tracker-miki2/webApps 200
+[debug] [2025-06-24T22:51:19.810Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/flight-tracker-miki2/webApps {}
+[debug] [2025-06-24T22:51:19.811Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:19.811Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:19.811Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/flight-tracker-miki2/webApps [none]
+[debug] [2025-06-24T22:51:19.811Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/flight-tracker-miki2/webApps {"displayName":"flight-tracker-miki"}
+[debug] [2025-06-24T22:51:21.019Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/flight-tracker-miki2/webApps 200
+[debug] [2025-06-24T22:51:21.019Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/flight-tracker-miki2/webApps {"name":"operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0"}
+[debug] [2025-06-24T22:51:21.021Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:21.021Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:21.021Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 [none]
+[debug] [2025-06-24T22:51:21.464Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 200
+[debug] [2025-06-24T22:51:21.464Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 {"name":"operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0"}
+[debug] [2025-06-24T22:51:21.966Z] [Create Web app Poller] Retrying task index 0
+[debug] [2025-06-24T22:51:21.967Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:21.967Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:21.967Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 [none]
+[debug] [2025-06-24T22:51:22.401Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 200
+[debug] [2025-06-24T22:51:22.401Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 {"name":"operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0"}
+[debug] [2025-06-24T22:51:23.403Z] [Create Web app Poller] Retrying task index 0
+[debug] [2025-06-24T22:51:23.403Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:23.403Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:23.404Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 [none]
+[debug] [2025-06-24T22:51:23.901Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 200
+[debug] [2025-06-24T22:51:23.901Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 {"name":"operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0"}
+[debug] [2025-06-24T22:51:25.902Z] [Create Web app Poller] Retrying task index 0
+[debug] [2025-06-24T22:51:25.903Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:25.903Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:25.903Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 [none]
+[debug] [2025-06-24T22:51:26.317Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 200
+[debug] [2025-06-24T22:51:26.317Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 {"name":"operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0"}
+[debug] [2025-06-24T22:51:30.318Z] [Create Web app Poller] Retrying task index 0
+[debug] [2025-06-24T22:51:30.319Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:30.319Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:30.319Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 [none]
+[debug] [2025-06-24T22:51:30.814Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 200
+[debug] [2025-06-24T22:51:30.814Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0 {"name":"operations/workflows/ZDU3NWViNWYtOTA5YS00MDBhLTk4NTktOWUwZDY4YjQ3NWI0","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.WebApp","name":"projects/flight-tracker-miki2/webApps/1:612623011264:web:03201f5c9eedb17022cc25","appId":"1:612623011264:web:03201f5c9eedb17022cc25","displayName":"flight-tracker-miki","projectId":"flight-tracker-miki2","webId":"YTIyMjFlNjMtZTUxOS00ZjUzLTljNjctZDE1NDQ2NjIxMWEx","apiKeyId":"ecfa503d-5b03-491c-902c-5fdefc3bee9e","state":"ACTIVE","expireTime":"1970-01-01T00:00:00Z","etag":"1_51478ca6-7bdf-4823-9d69-8f549afc45d6"}}
+[info] ✔  Created a new Firebase web app named "flight-tracker-miki" 
+[debug] [2025-06-24T22:51:30.817Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:30.817Z] Checked if tokens are valid: true, expires at: 1750808127659
+[debug] [2025-06-24T22:51:30.817Z] >>> [apiv2][query] POST https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations/europe-west4/backends backendId=flight-tracker-miki
+[debug] [2025-06-24T22:51:30.817Z] >>> [apiv2][body] POST https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations/europe-west4/backends {"servingLocality":"GLOBAL_ACCESS","codebase":{"repository":"projects/flight-tracker-miki2/locations/europe-west4/connections/apphosting-github-conn-xpko0w/gitRepositoryLinks/mikimeister-flight-tracker-miki2","rootDirectory":"/"},"labels":{"deployment-tool":"cli-firebase"},"serviceAccount":"firebase-app-hosting-compute@flight-tracker-miki2.iam.gserviceaccount.com","appId":"1:612623011264:web:03201f5c9eedb17022cc25"}
+[debug] [2025-06-24T22:51:32.796Z] <<< [apiv2][status] POST https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations/europe-west4/backends 500
+[debug] [2025-06-24T22:51:32.796Z] <<< [apiv2][body] POST https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations/europe-west4/backends {"error":{"code":500,"message":"An internal error has occurred (22b01c71-a6b9-410a-8939-ef80de2d66f5)","status":"INTERNAL"}}
+[error] 
+[error] Error: Request to https://firebaseapphosting.googleapis.com/v1beta/projects/flight-tracker-miki2/locations/europe-west4/backends?backendId=flight-tracker-miki had HTTP Error: 500, An internal error has occurred (22b01c71-a6b9-410a-8939-ef80de2d66f5)
+[debug] [2025-06-24T22:51:33.033Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "An internal error has occurred (22b01c71-a6b9-410a-8939-ef80de2d66f5)",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500
+  }
+}
